@@ -37,10 +37,11 @@ public class tempconve{
          }
      } catch (NumberFormatException e) {
                 System.out.println("Error: Invalid input. You must enter a numerical value.");
+               System.out.println("Exception details: " + e);
+               System.out.println("Reason: " + e.getMessage());
                 }
                 }
       sc.close();
     }
  }
    
-
